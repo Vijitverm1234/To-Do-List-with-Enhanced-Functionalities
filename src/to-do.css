@@ -1,0 +1,108 @@
+.to-do-list{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+body{
+    background-color: black;
+}
+h1{
+    font-size: 4rem;
+    color: aliceblue;
+}
+button{
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5 ease;
+}
+.add-task{
+    background-color: hsl(125, 47%, 54%);
+    margin-left: 5px;
+    transition: all .7s ease;
+}
+.add-task:hover{
+    background-color: black;
+    border: 1px solid hsl(125, 47%, 54%); ;
+}
+.delete{
+    background-color: hsl(4, 80%, 51%);
+}
+.delete:hover{
+    background-color: hsl(4, 47%, 44%);
+}
+.move-up{
+    background-color: hsl(207, 80%, 51%);
+
+}
+.move-down{
+    background-color: hsl(207, 80%, 51%);
+
+}
+.move-up:hover{
+    background-color: hsl(207, 91%, 53%);
+
+}
+.move-down:hover{
+    background-color: hsl(207, 89%, 52%);
+
+}
+input[type='text']{
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid hsl(0, 0%, 0.5);
+}
+ol{
+    padding: 0;  
+   
+}
+
+li{
+  font-size: 2rem;
+  width: 80%;
+   height: auto;
+  padding: 15px;
+  margin-left: auto;
+   margin-right: auto;
+    background-color: hsl(0, 5%, 89%);
+    margin-bottom: 30px;
+   border: 3px solid hsla(0, 0%, 85%, 0.75);
+   display: flex;
+   border-radius:10px ;
+   align-items: center;
+   justify-content: space-between;
+}
+.text{
+    padding-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    letter-spacing: -3px;
+}
+span{
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+@media (max-width:700px){
+    .btn{
+        flex-wrap: wrap;
+    }
+}
+.task{
+    flex: 1;
+}
