@@ -9,4 +9,4 @@ This is a simple To-Do List application built with React. It allows users to man
 - **Add Tasks**: Create new tasks with ease.
 - **Delete Tasks**: Remove tasks when they are no longer needed.
 - **Mark Tasks as Complete**: Click to mark tasks as done.
-- **Prioritize Tasks**: Assign priority levels (High, Medium, Low) to tasks for better organization.
+- **Prioritize Tasks**: Assign priority levels to tasks for better organization.
